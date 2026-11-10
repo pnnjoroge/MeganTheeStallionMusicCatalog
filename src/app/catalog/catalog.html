@@ -1,0 +1,38 @@
+<div class="body">
+    <div class="grid-layout">
+        <div class="card">
+            <div class="card-media">
+                <app-album1 (imageSelected)="onAlbumSelected($event)" [hideDetails]="true"></app-album1>
+            </div>
+            <a routerLink="/album1" class="details-button">See more details</a>
+        </div>
+    
+        <div class="card">
+            <div class="card-media">
+                <app-album2 (imageSelected)="onAlbumSelected($event)" [hideDetails]="true"></app-album2>
+            </div>
+            <a routerLink="/album2" class="details-button">See more details</a>
+        </div>
+    
+        <div class="card">
+            <div class="card-media">
+                <app-album3 (imageSelected)="onAlbumSelected($event)" [hideDetails]="true"></app-album3>
+            </div>
+            <a routerLink="/album3" class="details-button">See more details</a>
+        </div>
+    
+        <div class="card">
+            <div class="card-media">
+                <app-album4 (imageSelected)="onAlbumSelected($event)" [hideDetails]="true"></app-album4>
+            </div>
+            <a routerLink="/album4" class="details-button">See more details</a>
+        </div>
+    
+        <div class="card">
+            <div class="card-media">
+                <app-album5 (imageSelected)="onAlbumSelected($event)" [hideDetails]="true"></app-album5>
+            </div>
+            <a routerLink="/album5" class="details-button">See more details</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+
+.background-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1; 
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    object-fit: contain; 
+    object-position: bottom center;
+    pointer-events: none;      
+}
+
+.button {
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10; 
+    margin: 5px auto;
+    line-height: 1.2; 
+    transition: all 0.2s ease-in-out;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: .5em;
+}
+.button a {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.nav-links li a:hover { 
+    background-color: #e0e0e0;
+    text-decoration: underline; 
+}

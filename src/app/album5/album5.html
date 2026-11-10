@@ -1,0 +1,21 @@
+<div class="albums">
+    <h2>Album: {{ defaultAlbum5.title }}</h2>
+    <div *ngIf="!hideDetails">
+        <div class="example-card">
+            <ul>
+                <li> Title: {{ defaultAlbum5.title }}</li> <br>
+                <li> Artist: {{ defaultAlbum5.artist }}</li><br>
+                <li> Release Date: {{ defaultAlbum5.date }}</li> <br>
+                <li> Songs on the Album: 
+                    <ul>
+                        <li *ngFor="let song of defaultAlbum5.songs">
+                            ''{{ song.title }}'', Song length: {{ song.duration }} seconds
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <img [src]="defaultAlbum5.imageUrl" (click)="emitAlbum()" alt="Album image" width="400">
+        <br>
+</div>
