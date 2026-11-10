@@ -1,4 +1,4 @@
-import { Component, Output, Input} from '@angular/core';
+import { Component, Output, Input, EventEmitter} from '@angular/core';
 import { Album } from '../model/album.model';
 import { CommonModule } from '@angular/common';
 

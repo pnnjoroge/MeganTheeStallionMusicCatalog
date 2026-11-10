@@ -9,7 +9,7 @@ import { Album5 } from '../album5/album5';
 
 @Component({
   selector: 'app-catalog',
-  imports: [RouterOutlet, RouterLink, Album1, Album2, Album3, Album4, Album5],
+  imports: [RouterLink, Album1, Album2, Album3, Album4, Album5],
   templateUrl: './catalog.html',
   styleUrl: './catalog.css',
 })
